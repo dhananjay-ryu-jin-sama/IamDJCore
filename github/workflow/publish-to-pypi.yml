@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/djcore  # Replace <package-name> with your PyPI project name
+      url: https://pypi.org/p/IamDJ  # Replace <package-name> with your PyPI project name
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -50,7 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/djcore  # Replace <package-name> with your PyPI project name
+      url: https://pypi.org/p/IamDJ  # Replace <package-name> with your PyPI project name
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -105,7 +105,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/djcore
+      url: https://test.pypi.org/p/IamDJ
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing

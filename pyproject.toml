@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "IamDJCore"
-version = "0.0.2"
+version = "0.1.1"
 authors = [
   { name="DJ_Ryu_Jin_Sama", email="dhananjay2k3148@gmail.com" },
 ]

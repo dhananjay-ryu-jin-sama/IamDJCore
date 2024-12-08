@@ -115,31 +115,31 @@ graph = {
 }
 
 # Perform BFS starting from vertex 'A'
-print("BFS traversal starting from 'A':")
-search.bfs(graph, 'A')
+# print("BFS traversal starting from 'A':")
+# search.bfs(graph, 'A')
 
-# Running Dijkstra's algorithm from node 'A'
-distances = search.dijkstra(graph, 'A')
-print("Dijkstra's distances:", distances)
+# # Running Dijkstra's algorithm from node 'A'
+# distances = search.dijkstra(graph, 'A')
+# print("Dijkstra's distances:", distances)
 
-# A* search from 'A' to 'D'
-heuristic = {
-    'A': 3,
-    'B': 1,
-    'C': 1,
-    'D': 0,
-    'E': 1,
-    'F': 2
-}
-start = 'A'
-goal = 'D'
-path = search.Astar(graph, start, goal, heuristic)
-print("Path found using A*:", path)
+# # A* search from 'A' to 'D'
+# heuristic = {
+#     'A': 3,
+#     'B': 1,
+#     'C': 1,
+#     'D': 0,
+#     'E': 1,
+#     'F': 2
+# }
+# start = 'A'
+# goal = 'D'
+# path = search.Astar(graph, start, goal, heuristic)
+# print("Path found using A*:", path)
 
-# Greedy Best-First Search from 'A' to 'D'
-greedy_path = search.greedy(graph, start, goal, heuristic)
-print("Path found using Greedy Best-First Search:", greedy_path)
+# # Greedy Best-First Search from 'A' to 'D'
+# greedy_path = search.greedy(graph, start, goal, heuristic)
+# print("Path found using Greedy Best-First Search:", greedy_path)
 
-# Perform DFS starting from vertex 'A'
-print("DFS traversal starting from 'A':")
-search.dfs(graph, 'A')
+# # Perform DFS starting from vertex 'A'
+# print("DFS traversal starting from 'A':")
+# search.dfs(graph, 'A')
